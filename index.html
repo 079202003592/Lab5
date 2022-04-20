@@ -121,15 +121,14 @@
 
 		<!-- Modal layout -->
 		<div class="modal">
-			<div class="modal__overlay">
-
-			</div>
+			<div class="modal__overlay"></div>
 
 			<div class="modal__body">
-				<div class="modal__inner">
 
-					<!-- Authen form -->
-					<div class="auth-form">
+				<!-- Authen form -->
+				<div class="auth-form">
+					
+					<div class="auth-form__container">						
 						<div class="auth-form__header">
 							<h3 class="auth-form__heading">Dang ky</h3>
 							<span class="auth-form__switch-btn">Dang nhap</span>
@@ -137,28 +136,28 @@
 
 						<div class="auth-form__form">
 							<div class="auth-form__group">
-								<input type="text" class="auth-form__input" placeholder="Email">
+								<input type="form" class="auth-form__input" placeholder="Email">
 							</div>
 							<div class="auth-form__group">
-								<input type="text" class="auth-form__input" placeholder="Password">
+								<input type="password" class="auth-form__input" placeholder="Password">
 							</div>
 							<div class="auth-form__group">
-								<input type="text" class="auth-form__input" placeholder="Password again">
+								<input type="password" class="auth-form__input" placeholder="Password again">
 							</div>
 						</div>
-					</div>
 
-					<div class="auth-form__aside">
-						<p class="auth-form__policy-text">
-							Bang viec dang ki, ban da dong y voi Shopee ve
-							<a href="" class="authen-form__policy-link">Dieu khoan dich vu</a> &
-							<a href="" class="authen-form__policy-link">Chinh sach bao mat</a>
-						</p>
-					</div>
-
-					<div class="auth-form__controls">
-						<button class="btn">TRO LAI</button>
-						<button class="btn btn--primary">DANG KY</button>
+						<div class="auth-form__aside">
+							<p class="auth-form__policy-text">
+								Bang viec dang ki, ban da dong y voi Shopee ve
+								<a href="" class="authen-form__text-link">Dieu khoan dich vu</a> &
+								<a href="" class="authen-form__text-link">Chinh sach bao mat</a>
+							</p>
+						</div>
+	
+						<div class="auth-form__controls">
+							<button class="btn">TRO LAI</button>
+							<button class="btn btn--primary">DANG KY</button>
+						</div>	
 					</div>
 
 					<div class="auth-form__socials">
@@ -171,7 +170,9 @@
 							Ket noi voi Google
 						</a>
 					</div>
+						
 				</div>
+
 			</div>
 		</div>
 	</body>
